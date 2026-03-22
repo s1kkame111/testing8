@@ -1,10 +1,10 @@
 const data = [
     {
-        place:'Франція, кінець XIX—початок XX ст',
+        place:'Франція, кінець XIX ст',
         title:'ОСНОВНІ',
         title2:'ТЕМИ',
         description:'У цьому проєкті розглядається розвиток Франції в період так званої «Прекрасної епохи». Це був час швидкого культурного та наукового прогресу, коли країна стала одним із центрів європейського мистецтва. Також розглядаються політичні події, зокрема Франко-прусська війна, утворення Третьої республіки та політичні кризи. Окрема увага приділяється видатним особистостям, які вплинули на розвиток Франції.',
-        image:'https://monovisions.com/wp-content/uploads/2015/06/vintage-bw-photos-of-paris-france-late-19th-century-06-1024x759.jpg'
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Le_Palais_des_Tuileries_-_Le_Gray.jpg/1280px-Le_Palais_des_Tuileries_-_Le_Gray.jpg'
     },
     {
         place:'Париж, кінець XIX ст',
