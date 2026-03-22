@@ -44,17 +44,22 @@ const data = [
 ]
 
 const _ = (id)=>document.getElementById(id)
-const cards = data.map((i, index)=><div class="card" id="card${index}" style="background-image:url(${i.image})"  ></div>).join('')
+const cards = data.map((i, index)=>
+  <div class="card" id="card${index}" style="background-image:url(${i.image})"></div>
+).join('')
 
-const cardContents = data.map((i, index)=><div class="card-content" id="card-content-${index}">
-<div class="content-start"></div>
-<div class="content-place">${i.place}</div>
-<div class="content-title-1">${i.title}</div>
-<div class="content-title-2">${i.title2}</div>
+const cardContents = data.map((i, index)=>
+<div class="card-content" id="card-content-${index}">
+  <div class="content-start"></div>
+  <div class="content-place">${i.place}</div>
+  <div class="content-title-1">${i.title}</div>
+  <div class="content-title-2">${i.title2}</div>
+</div>
+).join('')
 
-</div>).join('')
-
-const sildeNumbers = data.map((_, index)=><div class="item" id="slide-item-${index}" >${index+1}</div>).join('')
+const sildeNumbers = data.map((_, index)=>`
+  <div class="item" id="slide-item-${index}">${index+1}</div>
+`).join('')
 _('demo').innerHTML =  cards + cardContents
 _('slide-numbers').innerHTML =  sildeNumbers
 
@@ -65,13 +70,13 @@ const range = (n) =>
 const set = gsap.set;
 
 function getCard(index) {
-  return #card${index};
+  return `#card${index}`;
 }
 function getCardContent(index) {
-  return #card-content-${index};
+  return `#card-content-${index}`;
 }
 function getSliderItem(index) {
-  return #slide-item-${index};
+  return `#slide-item-${index}`;
 }
 
 function animate(target, duration, properties) {
@@ -121,11 +126,11 @@ function init() {
   gsap.set(getCardContent(active), { x: 0, y: 0, opacity: 0 });
   gsap.set(detailsActive, { opacity: 0, zIndex: 22, x: -200 });
   gsap.set(detailsInactive, { opacity: 0, zIndex: 12 });
-  gsap.set(${detailsInactive} .text, { y: 100 });
-  gsap.set(${detailsInactive} .title-1, { y: 100 });
-  gsap.set(${detailsInactive} .title-2, { y: 100 });
-  gsap.set(${detailsInactive} .desc, { y: 50 });
-  gsap.set(${detailsInactive} .cta, { y: 60 });
+  gsap.set(`${detailsInactive} .text`, { y: 100 });
+  gsap.set(`${detailsInactive} .title-1`, { y: 100 });
+  gsap.set(`${detailsInactive} .title-2`, { y: 100 });
+  gsap.set(`${detailsInactive} .desc`, { y: 50 });
+  gsap.set(`${detailsInactive} .cta`, { y: 60 });
 
   gsap.set(".progress-sub-foreground", {
     width: 500 * (1 / order.length) * (active + 1),
@@ -191,42 +196,42 @@ function step() {
     const detailsActive = detailsEven ? "#details-even" : "#details-odd";
     const detailsInactive = detailsEven ? "#details-odd" : "#details-even";
 
-    document.querySelector(${detailsActive} .place-box .text).textContent =
+    document.querySelector(`${detailsActive} .place-box .text`).textContent =
       data[order[0]].place;
-    document.querySelector(${detailsActive} .title-1).textContent =
+    document.querySelector(`${detailsActive} .title-1`).textContent =
       data[order[0]].title;
-    document.querySelector(${detailsActive} .title-2).textContent =
+    document.querySelector(`${detailsActive} .title-2`).textContent =
       data[order[0]].title2;
-    document.querySelector(${detailsActive} .desc).textContent =
+    document.querySelector(`${detailsActive} .desc`).textContent =
       data[order[0]].description;
 
     gsap.set(detailsActive, { zIndex: 22 });
     gsap.to(detailsActive, { opacity: 1, delay: 0.4, ease });
-    gsap.to(${detailsActive} .text, {
+    gsap.to(`${detailsActive} .text`, {
       y: 0,
       delay: 0.1,
       duration: 0.7,
       ease,
     });
-    gsap.to(${detailsActive} .title-1, {
+    gsap.to(`${detailsActive} .title-1`, {
       y: 0,
       delay: 0.15,
       duration: 0.7,
       ease,
     });
-    gsap.to(${detailsActive} .title-2, {
+    gsap.to(`${detailsActive} .title-2`, {
       y: 0,
       delay: 0.15,
       duration: 0.7,
       ease,
     });
-    gsap.to(${detailsActive} .desc, {
+    gsap.to(`${detailsActive} .desc`, {
       y: 0,
       delay: 0.3,
       duration: 0.4,
       ease,
     });
-    gsap.to(${detailsActive} .cta, {
+    gsap.to(`${detailsActive} .cta`, {
       y: 0,
       delay: 0.35,
       duration: 0.4,
@@ -382,5 +387,4 @@ document.addEventListener("click", (e) => {
     clicks++;
     step();
   }
-});
 });
