@@ -14,25 +14,25 @@ const data = [
         image:'https://upload.wikimedia.org/wikipedia/commons/d/d7/Scenes_around_Paris_-_Op%C3%A9ra_Garnier%2C_ca._1920%E2%80%9335.jpg'
     },
     {
-        place:'Sahara Desert - Morocco',
-        title:'MARRAKECH',
-        title2:'MEROUGA',
-        description:'The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks and desert camps offer an unforgettable immersion into the nomadic way of life.',
-        image:'https://assets.codepen.io/3685267/timed-cards-3.jpg'
+        place:'Париж, 1878–1900 рр',
+        title:'ВИСТАВКИ ТА',
+        title2:'НАУКА',
+        description:'У Франції проводилися Всесвітні виставки, які демонстрували технічні досягнення різних країн. Найвідомішою стала виставка 1889 року, під час якої була побудована Ейфелева вежа. У цей період активно розвивалася наука. Важливі відкриття зробили Луї Пастер у галузі медицини та Марія Склодовська-Кюрі у дослідженні радіоактивності.',
+        image:'https://cp12.nevsepic.com.ua/88/1350082433-0029899-www.nevsepic.com.ua.jpg'
     },
     {
-        place:'Sierra Nevada - USA',
-        title:'YOSEMITE',
-        title2:'NATIONAL PARAK',
-        description:'Yosemite National Park is a showcase of the American wilderness, revered for its towering granite monoliths, ancient giant sequoias, and thundering waterfalls. The park offers year-round recreational activities, from rock climbing to serene valley walks.',
-        image:'https://assets.codepen.io/3685267/timed-cards-4.jpg'
+        place:'Франція, 1870–1875 рр',
+        title:'ПОЛІТИЧНІ',
+        title2:'ЗМІНИ',
+        description:'Після поразки у Франко-прусська війна у Франції відбулися значні зміни. Було повалено монархію і створено Третю республіку. У 1871 році виникла Паризька комуна — спроба створити нову форму влади. Ці події показали нестабільність політичної ситуації в країні.',
+        image:'https://st.violity.com/auction/uncos-images/55/276ab187e28bfbcddecb2b177879d1a0.jpg?t=69bfeb4c1627d'
     },
     {
-        place:'Tarifa - Spain',
-        title:'LOS LANCES',
-        title2:'BEACH',
-        description:'Los Lances Beach in Tarifa is a coastal paradise known for its consistent winds, making it a world-renowned spot for kitesurfing and windsurfing. The beach\'s long, sandy shores provide ample space for relaxation and sunbathing, with a vibrant atmosphere of beach bars and cafes.',
-        image:'https://assets.codepen.io/3685267/timed-cards-5.jpg'
+        place:'Франція, кінець XIX ст',
+        title:'КРИЗИ ТА',
+        title2:'РЕФОРМИ',
+        description:'У Третій республіці виникали політичні кризи, серед яких найвідомішою була Справа Дрейфуса. Вона розділила суспільство на прихильників і противників справедливості. Водночас до влади приходили радикали, які проводили реформи, зокрема відокремлення церкви від держави та розвиток освіти.',
+        image:'https://i.redd.it/s2mwciizobqg1.jpeg'
     },
     {
         place:'Cappadocia - Turkey',
