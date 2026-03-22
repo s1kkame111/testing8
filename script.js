@@ -39,11 +39,12 @@ const data = [
         image:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Le_Palais_des_Tuileries_-_Le_Gray.jpg/1280px-Le_Palais_des_Tuileries_-_Le_Gray.jpg'
     },
     {
-        place:'Cappadocia - Turkey',
-        title:'Göreme',
-        title2:'Valley',
-        description:'Göreme Valley in Cappadocia is a historical marvel set against a unique geological backdrop, where centuries of wind and water have sculpted the landscape into whimsical formations. The valley is also famous for its open-air museums, underground cities, and the enchanting experience of hot air ballooning.',
-        image:'https://assets.codepen.io/3685267/timed-cards-6.jpg'
+        place:'Франція, кінець XIX',
+        title:'МИСТЕЦТВО І',
+        title2:'СТИЛЬ',
+        description:'У період «Прекрасної епохи» у Франції активно розвивалися нові напрямки мистецтва, зокрема імпресіонізм і постімпресіонізм. Художники намагалися передати не точні деталі, а свої враження від світу — світло, рух, настрій. У картинах часто зображували природу, міське життя та повсякденні сцени
+Цей період також вплинув на моду та архітектуру. З’являлися нові стилі, будувалися красиві будівлі, а мистецтво ставало більш доступним для людей.',
+        image:'https://upload.wikimedia.org/wikipedia/commons/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg'
     },
 ]
 
