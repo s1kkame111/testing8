@@ -4,13 +4,13 @@ const data = [
         title:'ОСНОВНІ',
         title2:'ТЕМИ',
         description:'У цьому проєкті розглядається розвиток Франції в період так званої «Прекрасної епохи». Це був час швидкого культурного та наукового прогресу, коли країна стала одним із центрів європейського мистецтва. Також розглядаються політичні події, зокрема Франко-прусська війна, утворення Третьої республіки та політичні кризи. Окрема увага приділяється видатним особистостям, які вплинули на розвиток Франції.',
-        image:'https://discover.in.ua/uploads/illustrations-2/mini/parizh-foto-kincja-xix-st.jpg'
+        image:'https://discover.in.ua/uploads/illustrations-2/parizh-foto-kincja-xix-st.jpg'
     },
     {
-        place:'Japan Alps',
-        title:'NANGANO',
-        title2:'PREFECTURE',
-        description:'Nagano Prefecture, set within the majestic Japan Alps, is a cultural treasure trove with its historic shrines and temples, particularly the famous Zenkō-ji. The region is also a hotspot for skiing and snowboarding, offering some of the country\'s best powder.',
+        place:'Париж, кінець XIX ст',
+        title:'ПРЕКРАСНА',
+        title2:'ЕПОХА',
+        description:'«Belle Époque» — це період розквіту культури, мистецтва та науки у Франції. У цей час активно розвивалася мода, архітектура, живопис і література. Париж став центром європейського культурного життя. Саме тоді з’явилися нові художні напрямки, такі як імпресіонізм і постімпресіонізм. Люди вірили у прогрес і світле майбутнє.',
         image:'https://assets.codepen.io/3685267/timed-cards-2.jpg'
     },
     {
