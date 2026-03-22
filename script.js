@@ -1,9 +1,9 @@
 const data = [
     {
-        place:'Switzerland Alps',
-        title:'SAINT',
-        title2:'ANTONIEN',
-        description:'Tucked away in the Switzerland Alps, Saint Antönien offers an idyllic retreat for those seeking tranquility and adventure alike. It\'s a hidden gem for backcountry skiing in winter and boasts lush trails for hiking and mountain biking during the warmer months.',
+        place:'Франція, кінець XIX—початок XX ст',
+        title:'ОСНОВНІ',
+        title2:'ТЕМИ',
+        description:'У цьому проєкті розглядається розвиток Франції в період так званої «Прекрасної епохи». Це був час швидкого культурного та наукового прогресу, коли країна стала одним із центрів європейського мистецтва. Також розглядаються політичні події, зокрема Франко-прусська війна, утворення Третьої республіки та політичні кризи. Окрема увага приділяється видатним особистостям, які вплинули на розвиток Франції.',
         image:'https://assets.codepen.io/3685267/timed-cards-1.jpg'
     },
     {
